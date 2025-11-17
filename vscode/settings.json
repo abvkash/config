@@ -1,0 +1,15 @@
+{
+    "editor.insertSpaces": true,
+    "editor.minimap.enabled": false,
+    "editor.tabSize": 2,
+    "explorer.confirmDragAndDrop": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.defaultLocation": "editor",
+    "terminal.integrated.fontSize": 14,
+    "vim.useSystemClipboard": true,
+    "workbench.activityBar.location": "top",
+    "workbench.startupEditor": "none",
+    "editor.wordWrap": "off",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false
+}
