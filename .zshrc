@@ -27,7 +27,7 @@ zstyle ':vcs_info:git:*' actionformats '(%b|%a%u%c)'
 precmd() { vcs_info }
 setopt PROMPT_SUBST
 
-export PROMPT="%F{yellow}%n@%m%f:%F{blue}%~%f %# "
+export PROMPT="%F{green}%n@%m%f %F{blue}%c%f %# "
 export RPROMPT="\$vcs_info_msg_0_"
 
 HISTSIZE=10000
@@ -48,3 +48,4 @@ if [[ -s "$HOME/.nvm/nvm.sh" ]]; then
     alias $cmd="unalias $nvm_cmds && unset nvm_cmds && . $NVM_DIR/nvm.sh && $cmd"
   done
 fi
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

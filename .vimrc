@@ -13,7 +13,7 @@ set path+=** wildmenu
 set re=2
 
 syntax on
-set background=dark number cursorline
+set background=dark number relativenumber cursorline
 colorscheme habamax
 hi Normal ctermfg=NONE ctermbg=NONE
 hi CursorLine ctermbg=NONE
