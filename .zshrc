@@ -27,7 +27,7 @@ zstyle ':vcs_info:git:*' actionformats '(%b|%a%u%c)'
 precmd() { vcs_info }
 setopt PROMPT_SUBST
 
-export PROMPT="%F{green}%n@%m%f %F{blue}%c%f %# "
+export PROMPT="%F{green}%n@%m%f %F{blue}%~%f %# "
 export RPROMPT="\$vcs_info_msg_0_"
 
 HISTSIZE=10000
